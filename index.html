@@ -4,44 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patient's Health Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dist/output.css">
+
 </head>
-<body>
-    <header>
-        <div class="logo">
+<body class="bg-pageBg">
+    <header class="flex flex-col sm:flex-row bg-white rounded-[70px] items-center justify-between p-4 text-black">
+        <div class="logo mb-4 sm:mb-0">
         <a href="/"><img src="/Assets/TestLogo.svg" alt="logo"/></a>
         </div>
-        <nav>
-            <ul>
-                <li>
+        <nav class="mb-4 sm:mb-0">
+            <ul class="flex flex-wrap space-x-6 gap-2">
+                <li class="flex items-center">
                     <img src="/Assets/home_FILL0_wght300_GRAD0_opsz24.svg" alt="Home Icon"/>
-                    <span>Overview</span>
+                    <span class="ml-2">Overview</span>
                 </li>
-                <li>
+                <li class="flex items-center">
                     <img src="/Assets/group_FILL0_wght300_GRAD0_opsz24.svg" alt="Patients Icon"/>
-                    <span>Patients</span>
+                    <span class="ml-2">Patients</span>
                 </li>
-                <li>
+                <li class="flex items-center">
                     <img src="/Assets/calendar_today_FILL0_wght300_GRAD0_opsz24.svg" alt="Schedule Icon"/>
-                    <span>Schedule</span>
+                    <span class="ml-2">Schedule</span>
                 </li>
-                <li>
+                <li class="flex items-center">
                     <img src="/Assets/chat_bubble_FILL0_wght300_GRAD0_opsz24.svg" alt="Message Icon"/>
-                    <span>Message</span>
+                    <span class="ml-2">Message</span>
                 </li>
-                <li>
+                <li class="flex items-center">
                     <img src="/Assets/credit_card_FILL0_wght300_GRAD0_opsz24.svg" alt="Transaction Icon"/>
-                    <span>Transaction</span>
+                    <span class="ml-2">Transaction</span>
                 </li>
             </ul>
 
         </nav>
-        <div class="doctor-info">
+        <div class="doctor-info text-right">
             
         </div>
-        <div class="settings">
-            <img src="Assets/settings_FILL0_wght300_GRAD0_opsz24.svg" alt="Settings Icon"> <!-- Replace with actual icon -->
-            <img src="Assets/more_vert_FILL0_wght300_GRAD0_opsz24.svg" alt="More Options Icon"> <!-- Replace with actual icon -->
+        <div class="settings flex items-center ml-4">
+            <img src="Assets/settings_FILL0_wght300_GRAD0_opsz24.svg" alt="Settings Icon"> 
+            <img src="Assets/more_vert_FILL0_wght300_GRAD0_opsz24.svg" alt="More Options Icon" class="ml-4">
         </div>
     </header>
     
